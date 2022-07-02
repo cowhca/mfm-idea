@@ -21,6 +21,7 @@
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"llhttp": "^1.0.1",
 		"postcss": "^8.4.14",
 		"prettier": "^2.7.1",
 		"prettier-plugin-tailwindcss": "^0.1.11",
@@ -28,8 +29,5 @@
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.1.4"
 	},
-	"type": "module",
-	"dependencies": {
-		"llhttp": "^1.0.1"
-	}
+	"type": "module"
 }
