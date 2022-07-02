@@ -43,7 +43,7 @@
 <svelte:window
 	on:keydown={(e) => {
 		if (e.key === ' ') {
-			getRandomIdea();
+			setTimeout(getRandomIdea, 100);
 		} else if (e.key === 'Enter') {
 			window.open(idea.url + '?t=' + idea.start, '_blank');
 			console.log('Enter');
@@ -83,11 +83,6 @@
 	class="fixed right-0 bottom-0 flex flex-row items-center rounded-tl border-t border-l border-slate-400 tracking-widest text-gray-600"
 	href="https://connorcallahan.info/"
 >
-	<img
-		style="height:25px"
-		class="m-1 rounded-full"
-		src="./src/images/profile_pic.png"
-		alt="Me smiling"
-	/>
+	<img style="height:25px" class="m-1 rounded-full" src="profile_pic.png" alt="Me smiling" />
 	<p style="font-size: 10px;" class="pr-1">by Connor Callahan</p>
 </a>
