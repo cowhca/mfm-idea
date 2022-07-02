@@ -6,9 +6,7 @@
 
 		while (!done) {
 			const res = await fetch(
-				`https://api.airtable.com/v0/appjXc4mfkyd0bgCA/Ideas?api_key=${
-					import.meta.env.VITE_API
-				}&offset=${offset}`
+				`https://api.airtable.com/v0/appjXc4mfkyd0bgCA/Ideas?api_key=keyoFYTwLB0vomKLC&offset=${offset}`
 			);
 			let data = await res.json();
 			toReturn.push(...data.records);
