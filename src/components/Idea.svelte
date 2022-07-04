@@ -17,11 +17,11 @@
 
 <a href={idea.url + '/' + secondsToTimestamp(idea.start)} target="_blank">
 	<div
-		class="shadow-md shadow-slate-900  border-slate-500 bg-lime-200 p-2 hover:bg-lime-300 transition"
+		class="border-slate-500 bg-lime-200  p-2 shadow-md shadow-slate-900 transition hover:bg-lime-300"
 	>
-		<h2 class="text-xl underline underline-offset-1 text-center">{idea.idea}</h2>
+		<h2 class="text-center text-xl underline underline-offset-1">{idea.idea}</h2>
 		<a
-			class="bg-lime-300 mx-auto w-1/5 block text-center p-1 my-2"
+			class="mx-auto my-2 block w-1/5 bg-lime-300 p-1 text-center"
 			href={idea.url + '?t=' + idea.start}
 			target="_blank"
 		>
