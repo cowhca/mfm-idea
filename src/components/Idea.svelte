@@ -15,7 +15,7 @@
 	}
 </script>
 
-<a href={idea.url + '?t=' + idea.start} target="_blank">
+<a href={idea.url + '/' + secondsToTimestamp(idea.start)} target="_blank">
 	<div
 		class="shadow-md shadow-slate-900  border-slate-500 bg-lime-200 p-2 hover:bg-lime-300 transition"
 	>
