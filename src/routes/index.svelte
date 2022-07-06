@@ -65,15 +65,6 @@
 		>
 	</div>
 </div>
-
-<iframe
-	title="Podcast"
-	src="https://castbox.fm/app/castbox/player/id3920831/id509242227?v=8.22.11&autoplay=1?t=100"
-	frameborder="0"
-	width="100%"
-	height="500"
-/>
-
 <a
 	target="_blank"
 	rel="noopener"
